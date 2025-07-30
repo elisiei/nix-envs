@@ -5,6 +5,10 @@
     { self }:
     {
       templates = {
+        c = {
+          path = ./c;
+          description = "c template";
+        };
         go = {
           path = ./go;
           description = "go template";
