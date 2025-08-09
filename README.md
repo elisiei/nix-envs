@@ -7,13 +7,13 @@ some personal flakes
 ### create a new dir
 
 ```bash
-nix flake new -t git+https://git.elisiei.xyz/elisiei/nix-environments#ENV_HERE DIR_NAME
+nix flake new -t github:elisiei/nix-envs#ENV_HERE DIR_NAME
 ```
 
 ### or init an existing dir
 
 ```bash
-nix flake init -t git+https://git.elisiei.xyz/elisiei/nix-environments#ENV_HERE
+nix flake init -t github:elisiei/nix-envs#ENV_HERE
 ```
 
 # license
