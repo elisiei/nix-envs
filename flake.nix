@@ -13,6 +13,14 @@
           path = ./go;
           description = "go template";
         };
+        zig = {
+          path = ./zig;
+          description = "zig template";
+        };
+        odin = {
+          path = ./odin;
+          description = "odin template";
+        };
       };
 
       defaultTemplate = self.templates.go;
