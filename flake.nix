@@ -21,6 +21,10 @@
           path = ./odin;
           description = "odin template";
         };
+        crystal = {
+          path = ./crystal;
+          description = "crystal template";
+        };
       };
 
       defaultTemplate = self.templates.go;
